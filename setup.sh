@@ -30,6 +30,6 @@ git clone https://github.com/ykworx/meta-neoflx-imx.git
 
 echo "[setup] copy bblayers.conf & local.conf file..."
 cd ..
-MACHINE=neoflx source setup-environment build
+MACHINE=neoflx source ./setup-environment build
 cp ../sources/meta-neoflx-imx/base/conf/bblayers.conf conf
 cp ../sources/meta-neoflx-imx/base/conf/local.conf conf
